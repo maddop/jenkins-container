@@ -1,4 +1,4 @@
-def project = 'jenkins201/packer-terraform-cicd-aws'
+def project = 'maddop/jenkins-container'
 def jobName = "${project}".replaceAll('/','-')
 
 multibranchPipelineJob(jobName) {
